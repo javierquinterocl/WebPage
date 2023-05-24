@@ -364,6 +364,7 @@ footer{
 .categoria{
     width: 50%;
     height: 90px;
+    display: block;
 
 }
 nav{
@@ -385,4 +386,112 @@ height:80px ;
 }
 
 
+
+
 }
+@media screen and (max-width:799px){
+    .puntua{
+        width: 100%;
+    }
+    .contenedorpun{
+        background: none;
+    }
+    .puntua button{
+        margin: 10%;
+    }
+    .categoria a{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:500px){
+    .categoria a{
+        display: none;
+    }
+    nav{
+        width: 120%;
+    }
+    
+    .imag #imagen{
+        display: none;
+    }
+    .conteprod{
+        width: 120%;
+    }
+    .contenedorpun{
+        background: none;
+    }
+    .puntua{
+        display: none;
+    }
+    footer{
+        width: 100%;
+        height: 600px;
+    }
+    .ubicacion{
+        padding: 10px;
+    }
+    .ubicacion h5{
+        display: none;
+    }
+    .contenedor{
+        display: block;
+        width: 100%;
+    }
+    .contenedor .producto{
+        width: 110%;
+        margin: 0 0 0 0;
+    }
+
+}
+@media screen and (max-width:600px){
+    .categoria a{
+        display: none;
+    }
+    nav{
+        width: 100%;
+    }
+    
+    .imag #imagen{
+        display: none;
+    }
+    .conteprod{
+        width: 100%;
+    }
+    .contenedorpun{
+        background: none;
+    }
+    
+    footer{
+        width: 100%;
+        height: 600px;
+    }
+    .ubicacion{
+        padding: 10px;
+    }
+    .ubicacion h5{
+        display: none;
+    }
+    .contenedor{
+        display: block;
+        width: 100%;
+    }
+    .contenedor .producto{
+        width: 100%;
+        margin:0 0 0 0;
+    }
+    .producto{
+        margin:0 0 0 0;
+    }
+    .correo{
+        display: none;
+    }
+    .pccomp img{
+        width: 200px;
+        height: 200px;
+        margin: 0;
+    }
+
+}
+
