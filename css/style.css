@@ -336,3 +336,53 @@ footer{
     padding: 17px;
     color: aliceblue;
 }
+@media screen and (max-width:1000px){
+.conteprod{
+    height: 1200px;
+
+}
+.contenidoproduc .pccomp{
+    width: 40%;
+}
+.conteprod h1{
+    margin-left: 25%;
+}
+.contenedorpun{
+    height: 500px;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 300px;
+}
+.puntua button{
+    margin: 0 0 0 0;
+    width: 250px;
+    left: 50px;
+
+}
+.categoria{
+    width: 50%;
+    height: 90px;
+
+}
+nav{
+height:80px ;
+
+}
+
+.description button{
+    width: 25%;
+    right: 12%;
+
+}
+.description h6{
+    padding: 0 0 0 15px;
+}
+.categoria  a{
+    padding: 5px;
+    
+}
+
+
+}
